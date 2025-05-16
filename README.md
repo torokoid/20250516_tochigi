@@ -1,4 +1,4 @@
-# 20250516_tochigi
+<!-- # 20250516_tochigi -->
 
 <html lang="ja" data-loaded="false" data-scrolled="false" data-spmenu="closed">
 <head>
@@ -98,15 +98,25 @@ screen and (orientation: landscape) {
 p.note { display: none; }
 }
 
+h1 span.yellow {
+    display: inline-block;
+    background: #ffff00;
+    color: #ff0000;
+    line-height: 1;              /* 重要: 行高を強制 */
+    padding: 0.15em 0.05em;      /* 上下にわずかに余裕 */
+    vertical-align: middle;      /* ベースラインズレ防止 */
+    box-decoration-break: clone; /* 行をまたぐ際の分割補完 */
+}
+
 
 h2 span.yellow {
-    color: #ff0000;
-    background: #ffff00;
     display: inline-block;
-    line-height: 1;
-    padding: 0.15em 0;
-    box-shadow: 0 2px 0 #ffff00;
-    -webkit-font-smoothing: antialiased;
+    background: #ffff00;
+    color: #ff0000;
+    line-height: 1;              /* 重要: 行高を強制 */
+    padding: 0.15em 0.05em;      /* 上下にわずかに余裕 */
+    vertical-align: middle;      /* ベースラインズレ防止 */
+    box-decoration-break: clone; /* 行をまたぐ際の分割補完 */
 }
 
 
