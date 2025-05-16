@@ -163,7 +163,7 @@ p.note { display: none; }
 <h2><span class="yellow">ピンクと白がセットのノギク（正式名称はペラペラヨメナ）</span></h2>
 <a href="20250516_009.JPG" target="_blank"><img src="20250516_009.JPG" alt="サンプル画像" width="900" /></a>
     
-<h2><a><span class="yellow">青空パックに薔薇もにっこり</span></a></h2>
+<h2><span class="yellow">青空パックに薔薇もにっこり</span></h2>
 <a href="20250516_010.JPG" target="_blank"><img src="20250516_010.JPG" alt="サンプル画像" width="900" /></a>
     
 <h2><span class="yellow">公園の花壇でもお花達が満開</span></h2>
