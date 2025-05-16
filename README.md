@@ -98,6 +98,13 @@ screen and (orientation: landscape) {
 p.note { display: none; }
 }
 
+  /* ケース1: 問題が出る一般的なspan */
+  .case1 span.yellow {
+    background: #ffff00;
+    color: #ff0000;
+    padding: 0 0.1em;
+  }
+
 h1 span.yellow {
     display: inline-block;
     background: #ffff00;
@@ -144,7 +151,7 @@ h2 span.yellow {
 <p align="right"><marquee direction="left" scrollamount="20" width="30%">(^_^)/~alis</marquee></p>
 
 <!--流れ文字の挿入例-->
-<h1><span class="yellow"><marquee behavior="left">!!! 2025/05/14-15、田んぼリフレクションから、インターパークの花壇まで!!!</marquee></span></h1>
+<h1 class="case1"><span class="yellow"><marquee behavior="left">!!! 2025/05/14-15、田んぼリフレクションから、インターパークの花壇まで!!!</marquee></span></h1>
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -152,7 +159,7 @@ h2 span.yellow {
 <!--ここから下が、本体部分-->
 
 <!--
-<h2><span class="yellow">またまた、さだまさしさんですが、「もう一つの雨やどり」</span></h2>
+<h2 class="case1"><span class="yellow">またまた、さだまさしさんですが、「もう一つの雨やどり」</span></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ9nXCizLh8?si=JmUSFCt-yJ68oFyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
     
 <h2><span class="yellow">こちらがオリジナルの「雨やどり」</span></h2>
