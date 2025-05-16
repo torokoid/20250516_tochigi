@@ -99,14 +99,13 @@ p.note { display: none; }
 }
 
 h2 span.yellow {
-    color: #ff0000;
+    display: inline;
     background: #ffff00;
-    display: inline-block;
-    line-height: 1.2;
-    text-decoration: none;
+    color: #ff0000;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
+
 
 
 </style>
