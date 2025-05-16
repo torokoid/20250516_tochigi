@@ -21,6 +21,13 @@ color: #fffafa;
 font-size: 1.5em;
 }
 
+.yellow {
+    color: #ff0000;
+    background: #ffff00;
+    display: inline-block;
+    line-height: 1.2; /* 必要なら調整 */
+}
+
 
 .red {color:#ff0000;}
 .grey {color:#ffffff; background:#999999;}
