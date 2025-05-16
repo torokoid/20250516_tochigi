@@ -313,7 +313,7 @@ h2 span.yellow {
 
 <!-- フッタ -->
 <footer>
-<p>Copyright 2025/05/14 alis @Tochigi</p>
+<p>Copyright 2025/05/16 alis @Tochigi</p>
 </footer>
 
 <!--HPにさまざまなJavaScriptを呼び込むための書式-->
