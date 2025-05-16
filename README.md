@@ -149,7 +149,10 @@ background:url(https://torokoid.github.io/20250516_tochigi/20250516_018.JPG) cen
 -webkit-background-size:cover;/*Android4*/
 }
 
-
+@media screen and (min-width: 540px),
+screen and (orientation: landscape) {
+p.note { display: none; }
+}
 
 
 
@@ -176,7 +179,7 @@ background:url(https://torokoid.github.io/20250516_tochigi/20250516_018.JPG) cen
 <p align="right"><marquee direction="left" scrollamount="20" width="30%">(^_^)/~alis</marquee></p>
 
 <!--流れ文字の挿入例-->
-<h1 class="case2"><span class="yellow"><marquee behavior="left">!!! 2025/05/14-15、田んぼリフレクションから、インターパークの花壇まで!!!</marquee></span></h1>
+<h1><span class="yellow"><marquee behavior="left">!!! 2025/05/14-15、田んぼリフレクションから、インターパークの花壇まで!!!</marquee></span></h1>
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -184,10 +187,10 @@ background:url(https://torokoid.github.io/20250516_tochigi/20250516_018.JPG) cen
 <!--ここから下が、本体部分-->
 
 <!--
-<h2 class="case1"><span class="yellow">またまた、さだまさしさんですが、「もう一つの雨やどり」</span></h2>
+<h2><span class="yellow">またまた、さだまさしさんですが、「もう一つの雨やどり」</span></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ9nXCizLh8?si=JmUSFCt-yJ68oFyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
     
-<h2 class="case2"><span class="yellow">こちらがオリジナルの「雨やどり」</span></h2>
+<h2><span class="yellow">こちらがオリジナルの「雨やどり」</span></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j9_KhXeEE-s?si=WGNl2lnybeOTady7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
     
 <h2><span class="yellow">最後は戦争問題を歌った「キーウから遠く離れて」</span></h2>
