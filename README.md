@@ -99,7 +99,10 @@ screen and (orientation: landscape) {
 p.note { display: none; }
 }
 
-img { vertical-align: bottom; }
+img {
+display: block;
+margin-bottom: 10px; /* お好みで余白調整 */
+}
 
 </style>
 
