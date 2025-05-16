@@ -98,12 +98,15 @@ screen and (orientation: landscape) {
 p.note { display: none; }
 }
 
+
 h2 span.yellow {
-    display: inline;
-    background: #ffff00;
     color: #ff0000;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    background: #ffff00;
+    display: inline-block;
+    line-height: 1;
+    padding: 0.15em 0;
+    box-shadow: 0 2px 0 #ffff00;
+    -webkit-font-smoothing: antialiased;
 }
 
 
