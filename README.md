@@ -30,50 +30,58 @@ font-size: 1.5em;
 .waku {border:2px dotted #99cc66;
 line-height: 200%;
 padding: 10px;}
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('https://via.placeholder.com/1200x600/333399/ffffff') no-repeat center center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
 
-
-main {
-background-color: rgba(255, 255, 255, 0.5);
+h1 span.yellow {
+    display: inline-block;
+    background: #ffff00;
+    color: #ff0000;
+    line-height: 1;              /* 重要: 行高を強制 */
+    padding: 0.15em 0.05em;      /* 上下にわずかに余裕 */
+    vertical-align: middle;      /* ベースラインズレ防止 */
+    box-decoration-break: clone; /* 行をまたぐ際の分割補完 */
 }
 
-section {
-background-color: rgba(0, 225, 0, 0.3);
+
+<!--
+h1 {
+    position: relative;
+    display: inline-block;
 }
+h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.8em;
+    width: 100%;
+    background: #ffff00;
+    z-index: -1;
+}
+-->
 
 
-/* 点滅 */
-.blinking{
--webkit-animation:blink 1.5s ease-in-out infinite alternate;
--moz-animation:blink 1.5s ease-in-out infinite alternate;
-animation:blink 1.5s ease-in-out infinite alternate;
+h2 {
+    position: relative;
+    display: inline-block;
 }
-@-webkit-keyframes blink{
-0% {opacity:0;}
-100% {opacity:1;}
-}
-@-moz-keyframes blink{
-0% {opacity:0;}
-100% {opacity:1;}
-}
-@keyframes blink{
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-#wrap {background:none} /*PC用の背景はオフ*/
-
-/*背景を表示させる部分*/
-body::before {
-content:"";
-display:block;
-position:fixed;
-top:0;
-left:0;
-z-index:-1;
-width:100%;
-height:100vh;
-background:url(https://torokoid.github.io/20250516_tochigi/20250516_018.JPG) center/cover no-repeat;
--webkit-background-size:cover;/*Android4*/
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.8em;
+    width: 100%;
+    background: #ffff00;
+    z-index: -1;
 }
 
 a.p:hover {
@@ -92,12 +100,13 @@ display: block;
 width: 800px;
 }
 
-
-@media screen and (min-width: 540px),
-screen and (orientation: landscape) {
-p.note { display: none; }
-}
-
+<!--
+  h2 {
+    font-size: 3rem;
+    margin: 100px;
+    line-height: 1.2;
+  }
+-->
   /* ケース1: 問題が出る一般的なspan */
   .case1 span.yellow {
     background: #ffff00;
@@ -105,7 +114,7 @@ p.note { display: none; }
     padding: 0 0.1em;
   }
 
-    /* ケース2: display:inline-block ＋ line-height調整 ＋ box-shadowで白線を消す */
+  /* ケース2: display:inline-block ＋ line-height調整 ＋ box-shadowで白線を消す */
   .case2 span.yellow {
     background: #ffff00;
     color: #ff0000;
@@ -117,26 +126,30 @@ p.note { display: none; }
     font-smoothing: antialiased;
   }
 
-h1 span.yellow {
+  /* ケース3: background-clip: text を使う演出 */
+  .case3 span.yellow {
+    background: linear-gradient(180deg, #ffff00 0%, #ffff00 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     display: inline-block;
-    background: #ffff00;
-    color: #ff0000;
-    line-height: 1;              /* 重要: 行高を強制 */
-    padding: 0.15em 0.05em;      /* 上下にわずかに余裕 */
-    vertical-align: middle;      /* ベースラインズレ防止 */
-    box-decoration-break: clone; /* 行をまたぐ際の分割補完 */
+  }
+
+/*背景を表示させる部分*/
+body::before {
+content:"";
+display:block;
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+width:100%;
+height:100vh;
+background:url(https://torokoid.github.io/20250516_tochigi/20250516_018.JPG) center/cover no-repeat;
+-webkit-background-size:cover;/*Android4*/
 }
 
 
-h2 span.yellow {
-    display: inline-block;
-    background: #ffff00;
-    color: #ff0000;
-    line-height: 1;              /* 重要: 行高を強制 */
-    padding: 0.15em 0.05em;      /* 上下にわずかに余裕 */
-    vertical-align: middle;      /* ベースラインズレ防止 */
-    box-decoration-break: clone; /* 行をまたぐ際の分割補完 */
-}
 
 
 
