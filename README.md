@@ -98,12 +98,16 @@ screen and (orientation: landscape) {
 p.note { display: none; }
 }
 
-.yellow {
+h2 span.yellow {
     color: #ff0000;
     background: #ffff00;
     display: inline-block;
-    line-height: 1.2; /* 必要なら調整 */
+    line-height: 1.2;
+    text-decoration: none;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
+
 
 </style>
 
