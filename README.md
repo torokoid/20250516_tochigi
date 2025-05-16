@@ -105,6 +105,18 @@ p.note { display: none; }
     padding: 0 0.1em;
   }
 
+    /* ケース2: display:inline-block ＋ line-height調整 ＋ box-shadowで白線を消す */
+  .case2 span.yellow {
+    background: #ffff00;
+    color: #ff0000;
+    display: inline-block;
+    line-height: 1;
+    padding: 0.15em 0;
+    box-shadow: 0 2px 0 #ffff00;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+
 h1 span.yellow {
     display: inline-block;
     background: #ffff00;
@@ -151,7 +163,7 @@ h2 span.yellow {
 <p align="right"><marquee direction="left" scrollamount="20" width="30%">(^_^)/~alis</marquee></p>
 
 <!--流れ文字の挿入例-->
-<h1 class="case1"><span class="yellow"><marquee behavior="left">!!! 2025/05/14-15、田んぼリフレクションから、インターパークの花壇まで!!!</marquee></span></h1>
+<h1 class="case2"><span class="yellow"><marquee behavior="left">!!! 2025/05/14-15、田んぼリフレクションから、インターパークの花壇まで!!!</marquee></span></h1>
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -162,7 +174,7 @@ h2 span.yellow {
 <h2 class="case1"><span class="yellow">またまた、さだまさしさんですが、「もう一つの雨やどり」</span></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aZ9nXCizLh8?si=JmUSFCt-yJ68oFyO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
     
-<h2><span class="yellow">こちらがオリジナルの「雨やどり」</span></h2>
+<h2 class="case2"><span class="yellow">こちらがオリジナルの「雨やどり」</span></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j9_KhXeEE-s?si=WGNl2lnybeOTady7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
     
 <h2><span class="yellow">最後は戦争問題を歌った「キーウから遠く離れて」</span></h2>
