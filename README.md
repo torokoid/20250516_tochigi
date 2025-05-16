@@ -177,7 +177,7 @@ p.note { display: none; }
 <a href="20250516_018.JPG" target="_blank"><img src="20250516_018.JPG" alt="サンプル画像" width="900" /></a>
 <a href="20250516_019.JPG" target="_blank"><img src="20250516_019.JPG" alt="サンプル画像" width="900" /></a>
 <a href="20250516_020.JPG" target="_blank"><img src="20250516_020.JPG" alt="サンプル画像" width="900" /></a>
-<a href="20250516_021.JPG" target="_blank"><img src="20250516_021.JPG" alt="サンプル画像" width="900" /></a>
+
     
 <h2><span class="yellow">お昼はインターパークでお蕎麦</span></h2>
 <a href="20250516_022.JPG" target="_blank"><img src="20250516_022.JPG" alt="サンプル画像" width="900" /></a>
@@ -187,6 +187,7 @@ p.note { display: none; }
 <a href="20250516_024.JPG" target="_blank"><img src="20250516_024.JPG" alt="サンプル画像" width="900" /></a>
     
 <h2><span class="yellow">インターパークの花壇のお花も綺麗でした</span></h2>
+<a href="20250516_021.JPG" target="_blank"><img src="20250516_021.JPG" alt="サンプル画像" width="900" /></a>
 <a href="20250516_025.JPG" target="_blank"><img src="20250516_025.JPG" alt="サンプル画像" width="900" /></a>
 
 
