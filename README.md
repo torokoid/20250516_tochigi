@@ -99,19 +99,6 @@ screen and (orientation: landscape) {
 p.note { display: none; }
 }
 
-h2 {
-    font-size: 1.8em;
-    margin: 0.5em 0;
-}
-
-.yellow {
-    color: #ff0000;
-    background: #ffff00;
-    padding: 0.3em 0.5em;
-    line-height: 1.4;
-    display: inline-block;
-}
-
 
 </style>
 
